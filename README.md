@@ -304,7 +304,7 @@ configmap "autoingress-configuration" created
 deployment.extensions "autoingress" created
 ```
 
-to teraz pozostaje kreować serwisy i cieszyć się że autoingress sam sie rekonfiguruje 
+to teraz pozostaje kreować serwisy i cieszyć się że Ingress sam sie rekonfiguruje 
 
 ```
 # cat service1.yaml 
