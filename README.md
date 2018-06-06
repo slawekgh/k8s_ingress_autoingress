@@ -391,6 +391,10 @@ website-7dcbbddc8f-qd2np
 
 Od tej pory jeśli chcemy żeby nasze serwisy wystawiały się automatycznie na ingresie trzeba im dodać label auto_ingress i gotowe. 
 
+
+![Alt Text](http://gifowisko.pl/uimages/gifs/201106/1308915644_by_dominic777.gif)
+
+
 To by było na tyle, pozostaje jeszcze dyskusja o komunikacji inter-kontenerowej , czy narzucić obowiązek rozmawiania zawsze przez ingressa czy zezwolić na odwoływanie sie po nazwach serwisów wewnątrz namespace - na chwilę obecną nie mam gotowej recepty. 
 
 Pierwszy wariant wnosi troche porządku i standaryzacji ale z drugiej strony rezygnujemy wtedy z funkcjonalności wbudowanych w k8s , z przyjemnością poznałbym opinie innych użytkowników kubernetesa. 
