@@ -395,7 +395,7 @@ website-7dcbbddc8f-qd2np
 Od tej pory jeśli chcemy żeby nasze serwisy wystawiały się automatycznie na ingresie trzeba im dodać label auto_ingress i gotowe. 
 
 
-![Alt Text](https://tenor.com/search/cat-waiting-gifs)
+![Alt Text](https://media1.tenor.com/images/5772c0dd36dd7440c449afc8dd50d913/tenor.gif?itemid=4791402)
 
 
 To by było na tyle, pozostaje jeszcze dyskusja o komunikacji inter-kontenerowej , czy narzucić obowiązek rozmawiania zawsze przez ingressa czy zezwolić na odwoływanie sie po nazwach serwisów wewnątrz namespace - na chwilę obecną nie mam gotowej recepty. 
