@@ -12,8 +12,10 @@ https://12factor.net/pl/port-binding
 ```
 a że 12factor ma dużo do powiedzenia na każdy temat to i tu jest nie inaczej - w rozdziale 7 pojawia się zjawisko Port bindingu, cytuję:
 
-Udostępniaj usługi przez przydzielanie portów[...]
-W przypadku aplikacji wdrożonej w środowisku produkcyjnym zapytania do udostępnionej publicznie nazwy hosta są obsługiwane przez warstwę nawigacji. Kierowane są one później do procesu sieciowego udostępnionego na danym porcie.
+
+"Udostępniaj usługi przez przydzielanie portów[...]
+W przypadku aplikacji wdrożonej w środowisku produkcyjnym zapytania do udostępnionej publicznie nazwy hosta są obsługiwane przez warstwę nawigacji. Kierowane są one później do procesu sieciowego udostępnionego na danym porcie."
+
 
 O ile cenię 12factor za upraszczanie życia i mądre wytyczne to ten rozdział jakoś do mnie nie przemawia i widzę w nim pewne niebezpieczeństwo nadinterpretacji. Wydaje mi się że dotknięto tu tematu pojedyńczych mikroserwisów a nie całych usług. Spotkałem się kilka razy z interpretacją tego rozdziału która prowadziła wprost do wystawiania usług na portach i kombinowania potem jak przemapowwać nazwy na porty albo urle na porty. 
 
