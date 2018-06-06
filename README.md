@@ -296,6 +296,7 @@ finalnie jak się komuś nie chce nad tym wszystkim zastanawiać to można na sk
 
 ```
 # kubectl apply -f https://raw.githubusercontent.com/slawekgh/autoingress/master/autoingress.yaml
+
 namespace "autoingress" created
 serviceaccount "autoingress-serviceaccount" created
 clusterrole.rbac.authorization.k8s.io "autoingress-clusterrole" created
@@ -337,6 +338,7 @@ service "serwis1" created
             serviceName: serwis1
             servicePort: 80
           path: /serwis1
+
 
 # curl -H 'Host:www.mysite.com' 127.0.0.1:32165/serwis1
 website-7dcbbddc8f-qd2np
@@ -385,6 +387,7 @@ Ingress już się zmienił :
             serviceName: serwis2
             servicePort: 80
           path: /serwis2
+          
 # curl -H 'Host:www.mysite.com' 127.0.0.1:32165/serwis2
 website-7dcbbddc8f-qd2np
 ```
@@ -392,7 +395,7 @@ website-7dcbbddc8f-qd2np
 Od tej pory jeśli chcemy żeby nasze serwisy wystawiały się automatycznie na ingresie trzeba im dodać label auto_ingress i gotowe. 
 
 
-![Alt Text](http://gifowisko.pl/uimages/gifs/201106/1308915644_by_dominic777.gif)
+![Alt Text](https://tenor.com/search/cat-waiting-gifs)
 
 
 To by było na tyle, pozostaje jeszcze dyskusja o komunikacji inter-kontenerowej , czy narzucić obowiązek rozmawiania zawsze przez ingressa czy zezwolić na odwoływanie sie po nazwach serwisów wewnątrz namespace - na chwilę obecną nie mam gotowej recepty. 
