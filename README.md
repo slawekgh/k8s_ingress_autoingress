@@ -392,7 +392,7 @@ Ingress już się zmienił :
 website-7dcbbddc8f-qd2np
 ```
 
-Od tej pory jeśli chcemy żeby nasze serwisy wystawiały się automatycznie na ingresie trzeba im dodać label auto_ingress i gotowe. 
+Od tej pory jeśli chcemy żeby nasze serwisy wystawiały się automatycznie na ingresie trzeba im dodać label auto_ingress i gotowe. Wszystko dzieje się automatycznie i samo za nas :-) 
 
 
 ![Alt Text](https://media1.tenor.com/images/5772c0dd36dd7440c449afc8dd50d913/tenor.gif?itemid=4791402)
