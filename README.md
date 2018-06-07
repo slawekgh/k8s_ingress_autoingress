@@ -247,7 +247,7 @@ na tej podstawie będzie sterował ingressem który z kolei będzie działał w 
 
 3. autoingress będzie działał we własnym namespace="autoingress" - tak żeby nie przeszkadzał innym i w drugą stronę 
 
-4. powołamy będziie dla niego ServiceAccount=autoingress-serviceaccount
+4. powołany będzie dla niego ServiceAccount=autoingress-serviceaccount
 w przypadku naszego automatu będziemy poniższym userem: 
 ```
 User "system:serviceaccount:autoingress:autoingress-serviceaccount" 
