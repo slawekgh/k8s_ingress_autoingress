@@ -404,4 +404,6 @@ To by było na tyle, pozostaje jeszcze dyskusja o komunikacji inter-kontenerowej
 
 Pierwszy wariant wnosi troche porządku i standaryzacji ale z drugiej strony rezygnujemy wtedy z funkcjonalności wbudowanych w k8s , z przyjemnością poznałbym opinie innych użytkowników kubernetesa. 
 
+nieco szerzej omówiony temat ingressa 
+https://akomljen.com/aws-cost-savings-by-utilizing-kubernetes-ingress-with-classic-elb/
 
